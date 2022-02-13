@@ -1,11 +1,18 @@
+
+
 * {
-    border: solid black 1px;
+    font-family: Tahoma;
 }
 
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
+}
 body {
     display: flex;
     flex-direction: column;
-
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -14,7 +21,9 @@ header {
     min-height: 10em;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 150px;
+    padding: 10px 150px;
+    padding-bottom: 100px;
+   
 }
 
 .header-logo {
@@ -26,6 +35,7 @@ header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
     
 }
 
@@ -33,6 +43,134 @@ header {
     margin-left: auto;
 }
 
+
+.awesome {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    max-width: 400px;
+    
+}
+
+.awesome-content {
+    max-width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header > ul {
+    display: inline-flex;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 14px;
+    color: white;
+    padding-right: 10px;
+}
+
+button {
+    color: white;
+    background: #3882f6;
+    border-radius: 10px;
+    width: 74px;
+    height: 25px;
+    margin-top: 10px;
+    border: solid black 1px;
+    
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .info {
+    align-self: center;
+    padding: 25px 0;
+    font-size: 36px;
+    text-emphasis: 1000;
+    color: #1F2937;
+ }
+
+ .blue-box {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+ }
+
+ .text-container {
+     display: flex;
+     justify-content: center;
+     gap: 16px;
+ }
+
+ .info-text {
+     font-size: 12px;
+    max-width: 150px;
+    padding-top: 5px;
+    text-align:center;
+    padding-bottom: 50px;
+ }
+
+
+ .qoute {
+    display: flex;
+    flex-wrap: wrap;
+     padding: 50px 200px;
+     min-height: 300px;
+     background: #e5e7eb;
+     font-size: 36px;
+     font-style: italic;
+     color: #1F2937;
+ }
+
+ .thor {
+    padding-left: 40%; 
+    width: 100%;
+ }
+
+ .call {
+     display: flex;
+     margin: 50px 200px;
+     height: 100px;
+     border-radius: 10px;
+     background:#3882f6 ;
+     padding: 25px 75px;
+     justify-content: center;
+     align-items: center;
+     gap: 75px;
+ }
+
+ .button-two {
+     border: solid white 2px;
+     border-radius: 10px;
+     color: white;
+     padding: 2px 5px;
+ }
+
+ .call-too {
+     color: white;
+     font-size: 18px;
+     font-weight: 1000;
+ }
+
+ .call-explain {
+     color: white;
+     font-size: 14px;
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #1F2937;
+     color: white;
+     height: 100px;
+ }
 
 .awesome {
     font-size: 48px;
